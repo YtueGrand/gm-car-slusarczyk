@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>GM-Car Ślusarczyk – Szkoła Jazdy kat. B</title>
+<meta name="description" content="Ośrodek Szkolenia Kierowców GM-Car Ślusarczyk, OSK nr 00170212. Instruktor Grzegorz Ślusarczyk, kategoria B. Tel. 502 574 422, 502 586 669.">
+<meta name="theme-color" content="#1537b8">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%231537b8'/%3E%3Crect x='6' y='6' width='52' height='52' rx='6' fill='none' stroke='%23fff' stroke-width='4'/%3E%3Ctext x='32' y='48' font-family='Arial' font-weight='700' font-size='42' fill='%23fff' text-anchor='middle'%3EL%3C/text%3E%3C/svg%3E">
+<style>
+  :root{
+    --blue:#1537b8; --blue-dk:#0d2580; --blue-lt:#e8edff;
+    --ink:#14182b; --muted:#5b6380; --bg:#f3f5fb; --card:#fff; --line:#dfe4f2;
+    --green:#14a44d;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.45}
+  .wrap{max-width:520px;margin:0 auto;min-height:100vh;background:var(--card);box-shadow:0 0 40px rgba(13,37,128,.08)}
+
+  header{background:linear-gradient(160deg,var(--blue) 0%,var(--blue-dk) 100%);color:#fff;padding:22px 16px 26px;text-align:center}
+  .logo{display:inline-flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.5px}
+  .lsign{width:46px;height:46px;border-radius:7px;background:#fff;display:grid;place-items:center}
+  .lsign span{width:38px;height:38px;border-radius:5px;background:var(--blue);color:#fff;display:grid;place-items:center;font:800 28px/1 Arial,sans-serif;border:2px solid #fff;outline:2px solid var(--blue)}
+  .logo h1{font-size:26px;line-height:1.05;text-align:left}
+  .tag{margin-top:12px;font-size:16px;opacity:.95;line-height:1.4}
+  .tag b{font-size:18px}
+
+  .gallery{position:relative;background:#0b1440}
+  .slides{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .slides::-webkit-scrollbar{display:none}
+  .slides img{flex:0 0 100%;width:100%;aspect-ratio:4/3;object-fit:cover;scroll-snap-align:center;display:block}
+  .dots{position:absolute;left:0;right:0;bottom:10px;display:flex;justify-content:center;gap:8px}
+  .dots button{width:10px;height:10px;border-radius:50%;border:0;background:rgba(255,255,255,.5);cursor:pointer;padding:0}
+  .dots button.on{background:#fff;width:24px;border-radius:5px}
+  .nav{position:absolute;top:50%;transform:translateY(-50%);width:38px;height:38px;border-radius:50%;border:0;background:rgba(0,0,0,.35);color:#fff;font-size:22px;cursor:pointer;display:grid;place-items:center}
+  .nav.prev{left:8px}.nav.next{right:8px}
+
+  main{padding:20px 16px 8px}
+  .info{border:1px solid var(--line);border-radius:14px;overflow:hidden}
+  .row{display:flex;gap:12px;align-items:center;padding:13px 14px;border-bottom:1px solid var(--line)}
+  .row:last-child{border-bottom:0}
+  .ico{flex:0 0 38px;height:38px;border-radius:10px;background:var(--blue-lt);color:var(--blue);display:grid;place-items:center;font-size:19px}
+  .row .k{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.6px}
+  .row .v{font-size:17px;font-weight:700}
+  .badge{display:inline-grid;place-items:center;min-width:34px;height:30px;padding:0 8px;border-radius:7px;background:var(--blue);color:#fff;font-weight:800;font-size:18px}
+
+  h2{font-size:14px;color:var(--muted);text-transform:uppercase;letter-spacing:.8px;margin:22px 2px 10px}
+  .call{display:flex;align-items:center;gap:14px;text-decoration:none;color:#fff;background:var(--green);border-radius:14px;padding:15px 16px;margin-bottom:10px;box-shadow:0 4px 14px rgba(20,164,77,.25)}
+  .call:active{transform:scale(.98)}
+  .call .ph{font-size:24px}
+  .call b{display:block;font-size:22px;letter-spacing:1px}
+  .call small{font-size:13px;opacity:.9}
+  .btns{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .btn{display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;font-weight:700;font-size:15px;border-radius:12px;padding:13px 10px;border:2px solid var(--blue);color:var(--blue);background:#fff;cursor:pointer;font-family:inherit}
+  .btn.fill{background:var(--blue);color:#fff}
+
+  footer{text-align:center;color:var(--muted);font-size:13px;padding:22px 16px 30px}
+  @media (min-width:521px){body{padding:20px 0}.wrap{border-radius:18px;overflow:hidden;min-height:0}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">
+      <div class="lsign"><span>L</span></div>
+      <h1>GM-Car Ślusarczyk</h1>
+    </div>
+    <p class="tag">Ośrodek Szkolenia Kierowców<br><b>Kategoria B</b></p>
+  </header>
+
+  <section class="gallery" aria-label="Zdjęcia samochodu szkoleniowego">
+    <div class="slides" id="slides">
+      <img src="foto/auto1.jpg" alt="Samochód szkoleniowy GM-Car Ślusarczyk – widok z boku">
+      <img src="foto/auto2.jpg" alt="Samochód szkoleniowy – widok z przodu z boku" loading="lazy">
+      <img src="foto/auto3.jpg" alt="Samochód szkoleniowy – widok z przodu" loading="lazy">
+    </div>
+    <button class="nav prev" aria-label="Poprzednie zdjęcie" onclick="go(-1)">‹</button>
+    <button class="nav next" aria-label="Następne zdjęcie" onclick="go(1)">›</button>
+    <div class="dots" id="dots"></div>
+  </section>
+
+  <main>
+    <div class="info">
+      <div class="row"><div class="ico">🏫</div><div><div class="k">Ośrodek Szkolenia Kierowców</div><div class="v">OSK nr 00170212</div></div></div>
+      <div class="row"><div class="ico">👨‍🏫</div><div><div class="k">Instruktor</div><div class="v">Grzegorz Ślusarczyk</div></div></div>
+      <div class="row"><div class="ico">🚗</div><div><div class="k">Kategoria</div><div class="v"><span class="badge">B</span></div></div></div>
+    </div>
+
+    <h2>Zadzwoń i zapisz się</h2>
+    <a class="call" href="tel:+48502574422"><span class="ph">📞</span><span><b>502 574 422</b><small>Dotknij, aby zadzwonić</small></span></a>
+    <a class="call" href="tel:+48502586669"><span class="ph">📞</span><span><b>502 586 669</b><small>Dotknij, aby zadzwonić</small></span></a>
+
+    <div class="btns">
+      <a class="btn fill" href="kontakt.vcf" download="GM-Car_Slusarczyk.vcf">👤 Zapisz kontakt</a>
+      <a class="btn" href="sms:+48502574422">💬 Wyślij SMS</a>
+    </div>
+  </main>
+
+  <footer>GM-Car Ślusarczyk · OSK nr 00170212</footer>
+</div>
+<script>
+  const s=document.getElementById('slides'), d=document.getElementById('dots'), n=s.children.length;
+  for(let i=0;i<n;i++){const b=document.createElement('button');b.setAttribute('aria-label','Zdjęcie '+(i+1));b.onclick=()=>s.scrollTo({left:i*s.clientWidth,behavior:'smooth'});d.appendChild(b)}
+  const cur=()=>Math.round(s.scrollLeft/s.clientWidth);
+  const mark=()=>[...d.children].forEach((b,i)=>b.classList.toggle('on',i===cur()));
+  s.addEventListener('scroll',()=>requestAnimationFrame(mark),{passive:true}); mark();
+  function go(k){const i=(cur()+k+n)%n;s.scrollTo({left:i*s.clientWidth,behavior:'smooth'})}
+  let t=setInterval(()=>go(1),4500); s.addEventListener('pointerdown',()=>clearInterval(t),{once:true});
+</script>
+</body>
+</html>
